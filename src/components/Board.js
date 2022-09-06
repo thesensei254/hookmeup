@@ -17,6 +17,6 @@ const Board = ({squares, onClick}) => (
       <Square key={i} value={square} onClick={() => onClick(i)} />    
     )}
   </div>
-)
+);
 
-export default Board
+export default Board;
